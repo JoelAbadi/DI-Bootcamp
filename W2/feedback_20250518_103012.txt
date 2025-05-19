@@ -1,0 +1,11 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/Excersies.py
+suggestions for improvement:
+- In `find_oldest_cat`, consider using a more general approach to handle any number of cats, instead of being limited to three.
+- In Exercise 4, the `sort_animals` method modifies the object's state by adding a `groups` attribute. While functional, it might be cleaner to return the grouped dictionary instead of modifying the object. This enhances readability and predictability.
+- In Exercise 4, add input validation to handle potential errors (e.g., empty animal names).
+Brief justification:
+- correctness: All exercises correctly implement the specified functionality.  Exercise 1 accurately finds the oldest cat; Exercise 2 correctly instantiates dogs, calls methods, and compares sizes; Exercise 3 prints song lyrics line by line; and Exercise 4 successfully adds, displays, sells, sorts, and groups animals as described in the instructions. This aligns perfectly with the chapter's content on classes, objects, methods, and attributes.
+- readability: The code is well-structured and easy to follow. Variable names are descriptive, and the logic is straightforward. Minor improvements could enhance readability as suggested in the feedback. The code generally adheres to good programming style.
+- performance: The code's performance is acceptable for the given tasks.  However,  the `find_oldest_cat` function in Exercise 1 could be improved for scalability, and the creation of the `groups` dictionary in `sort_animals` could be optimized for large datasets by using a more efficient data structure or algorithm. The current solutions have a time complexity of O(n) for sorting and O(n) for grouping, where n is the number of animals.  For larger datasets, this could become slower.
+- security: The code does not present any security vulnerabilities as it doesn't interact with external sources or handle sensitive data.
+

@@ -1,0 +1,15 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D2/Daily_challenge.py
+suggestions for improvement:
+- Consider adding input validation to `__init__` for `page_size` to ensure it's a positive integer.
+- The `__str__` method could be improved by adding context, such as the current page number or the total number of pages, to make the output more informative.
+- For enhanced performance with very large datasets, explore using more efficient data structures or lazy loading techniques for the items
+Correctness: 100%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D2/Exercise.py
+suggestions for improvement:
+- In Exercise 1, the Siamese class could benefit from more descriptive attributes or methods specific to the breed, as suggested in the exercise instructions.
+- In Exercise 3, the `play()` method in the `PetDog` class could be improved by handling cases where no additional arguments are passed.
+- In Exercise 4,  Add error handling for cases where a person's first name doesn't match any member of the family in the `check_majority()` method. For instance, print a message indicating the person is not found.
+- Add input validation in Exercise 4 to prevent negative ages or non-string names.  Consider adding this to the `Person` class constructor.
+Correctness: 95%
+-----

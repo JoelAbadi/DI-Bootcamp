@@ -75,8 +75,7 @@ class Song:
 stairway = Song([
     "There’s a lady who's sure",
     "all that glitters is gold",
-    "and she’s buying a stairway to heaven"
-])
+    "and she’s buying a stairway to heaven"])
 
 # Call the method to sing the song
 stairway.sing_me_a_song()

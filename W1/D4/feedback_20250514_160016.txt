@@ -1,0 +1,12 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D4/daily_challenge.py
+suggestions for improvement:
+- The code uses regular expressions which is more complex than the chapter's suggested approach of using loops and conditional statements for character filtering and symbol replacement.  A more iterative solution would better reflect the learning objectives.
+- The code directly concatenates characters into `raw_message` without explicitly handling the alpha character filtering and symbol replacement as separate steps, which makes it harder to follow the algorithm described in the instructions.
+- Improve variable names for better readability. For example, `cols`, `rows`, and `raw_message` could be renamed to something more descriptive like `num_columns`, `num_rows`, and `column_string`.
+- Add comments to explain the purpose and logic of each step in the regular expressions. This will improve the readability of the code.
+Brief justification:
+- correctness: The code correctly extracts the hidden message. However, the approach using regular expressions deviates from the chapter's step-by-step instructions emphasizing loops and conditional statements for character processing.  The use of regular expressions is more concise but misses the core learning objective of practicing these fundamental concepts. The correctness is partially achieved but not through the methodology emphasized in the chapter.
+- readability: The code's readability is somewhat hampered by the use of regular expressions without sufficient comments. While the regular expressions themselves are relatively concise, their logic isn't immediately apparent to someone unfamiliar with the particular regex patterns.  Using more descriptive variable names would improve readability. The structure could be improved by explicitly separating the character filtering and symbol replacement steps.
+- performance: The performance is good. Regular expressions are generally efficient for string manipulation tasks. The code avoids unnecessary iterations or data structures, making it relatively performant.
+- security: There are no security concerns in this code snippet as it only performs string manipulations and doesn't involve any external input or data handling that could introduce vulnerabilities.
+

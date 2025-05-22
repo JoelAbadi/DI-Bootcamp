@@ -1,0 +1,15 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D2/daily_chhallenges.py
+suggestions for improvement:
+- Challenge 1: The code for Challenge 1 is incomplete and contains errors.  It attempts to use a dictionary (`multiples`) where a list is needed. The loop logic is also incorrect; it doesn't properly generate multiples.  It should use a list and append to it inside the loop.
+- Challenge 1: The `print` statement is also incorrect; it uses `Print` instead of `print` (case-sensitive).
+- Challenge 2: The code for Challenge 2 has several issues. It attempts to use `results` while defining `result` in the loop, causing a `NameError`. The logic correctly identifies consecutive duplicates, but it needs to be correctly assigned to the `result` variable. There's also a syntax error with extra space after `print`.
+- Both Challenges: Use more descriptive variable names (e.g., `number_to_multiply`, `desired_length`, `input_string`, `modified_string`).
+- Both Challenges: Add comments explaining the logic in each step. The current code lacks sufficient explanation.
+- Error Handling: The code lacks error handling.  It should handle cases where the user enters non-integer values for number and length in Challenge 1 or if the user enters a non-string value in Challenge 2.
+- Formatting: The code formatting needs improvement. Use consistent indentation and spacing to enhance readability.
+Brief justification:
+- correctness: The code does not correctly implement either challenge.  Challenge 1 fails to create the list of multiples, and Challenge 2 has logical and syntax errors that prevent it from correctly removing consecutive duplicates.  It deviates significantly from the chapter's requirements of correctly using lists, loops, and string manipulation. The given examples are not addressed correctly.
+- readability: The code's readability is hampered by poor variable names, inconsistent indentation, lack of comments, and multiple errors. The use of `Print` instead of `print` is also confusing.  Improving these aspects would significantly increase understanding.
+- performance: The performance is acceptable for the small inputs in the examples, but without error handling or efficient logic, it could become inefficient with larger inputs. However, the current small scale code has acceptable performance.
+- security: There are no apparent security vulnerabilities in this code because it's not interacting with external systems or handling sensitive data. The security score is high because there's no security-related concern.
+

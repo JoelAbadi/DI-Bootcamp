@@ -1,0 +1,20 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D5/rock_paper_scissors_game/game.py
+suggestions for improvement:
+- The `rock-paper-scissors.py` file is missing, which is a crucial part of the project as outlined in the instructions.  This file should contain the menu, score tracking, and main game loop.
+- Add error handling and input validation to `get_user_menu_choice()` in `rock-paper-scissors.py` to gracefully handle unexpected input (e.g., non-numeric input, input outside the valid range).
+- Improve the `print_results` function to present a more visually appealing and informative summary of the game results.  Consider using formatted strings or tables.
+- The `Game` class in `game.py` is well-structured and functional. However, the chapter also mentions using dictionaries for data structures, which is not used here for score tracking. The score tracking should be implemented in `rock-paper-scissors.py`.
+- Add comprehensive docstrings to functions and methods to improve code understanding and maintainability.
+Correctness: 95%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D5/rock_paper_scissors_game/rock_paper_scissors.py
+suggestions for improvement:
+- The `game.py` file is missing, making a complete correctness assessment impossible.  The provided `rock-paper-scissors.py` seems to correctly implement the menu, input handling, score tracking, and output as specified in the instructions, assuming `game.py` works as intended.
+- Improve error handling in `get_user_menu_choice()` to handle non-numeric input more robustly (e.g., using `try-except` to catch `ValueError`).
+- Add more descriptive variable names (e.g., instead of `choice`, use `menu_choice`).
+- Consider using a more user-friendly way to present the menu (e.g., using a library like `PyInquirer` for a more interactive experience).
+- The `print_results` function is called twice when exiting; it could be simplified to be called only once before exiting.
+- Add input validation to ensure the user enters 'rock', 'paper', or 'scissors' in the `game.py` (which is missing).
+- Consider adding a welcome message at the start of the program.
+Correctness: 95%
+-----

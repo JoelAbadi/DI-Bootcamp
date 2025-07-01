@@ -1,0 +1,18 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D2/exercise.py
+suggestions for improvement:
+- Exercise 1: The code uses lists instead of sets as instructed.  Set operations (union) are not used for concatenation. The code also has some unnecessary steps.
+- Exercise 2:  The code attempts to create a new tuple by concatenating tuples, which is not possible. The solution doesn't explain the immutability of tuples.
+- Exercise 3: The code correctly manipulates the list using appropriate methods. 
+- Exercise 4: The code generates the float sequence correctly, but the explanations about floats and integers are missing.
+- Exercise 5: The code correctly implements the for loops.
+- Exercise 6: The code correctly implements the while loop.
+- Exercise 7: The code has a minor error; it uses commas as separators instead of spaces as specified in instructions. The conditional logic is correct.
+- Exercise 8: The code is partially correct, but it doesn't calculate the total price correctly and the price isn't formatted as requested.
+- Exercise 9:  The code correctly calculates the total ticket cost. The bonus part is missing.
+- Exercise 10: The code does not correctly remove all instances of "Pastrami" and has several syntax errors preventing compilation.
+Brief justification:
+- correctness: Many exercises show a partial understanding of the concepts but have errors in implementation.  For example, Exercise 1 uses lists instead of sets, and Exercise 8 has errors in the pricing calculation.  Exercise 10 has multiple issues.
+- readability: The code's readability is inconsistent.  Some parts are well-formatted, while others are cluttered and lack comments. Inconsistent use of variable names, mix of camelCase and snake_case.
+- performance: The code's performance is generally acceptable for these small examples.  However, there's room for optimization (e.g., using set operations instead of list manipulations in Exercise 1 would improve efficiency).
+- security: There are no apparent security vulnerabilities in the provided code snippets as they are simple exercises without external input validation or sensitive data handling.
+

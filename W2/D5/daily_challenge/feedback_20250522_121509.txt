@@ -1,0 +1,7 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D5/daily_challenge/deck_of_cards.py
+suggestions for improvement:
+- The `build` method is called within `shuffle`.  While functionally correct, it's more efficient to only call `build` once in the constructor.  The `shuffle` method then only needs to shuffle the existing deck. This improves performance as it avoids recreating the entire deck every time the deck is shuffled.
+- Add docstrings to methods for better readability and understanding.  Explain what each method does and what it returns.
+- Consider adding error handling for invalid suit or value inputs in the `Card` class constructor.
+Correctness: 95%
+-----

@@ -1,0 +1,17 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D1/exercise.py
+suggestions for improvement:
+- Exercise 1: Use a loop or string multiplication for cleaner repeated output.
+- Exercise 2: Use the `**` operator for exponentiation, not the bitwise XOR `^`.
+- Exercise 3: The code is correct in its boolean evaluation but should use print statements for output as asked in the instructions.
+- Exercise 4: Good use of string concatenation but consider f-strings for better readability.
+- Exercise 5:  Excellent use of f-strings. The instructions did not say to include your brother's info.
+- Exercise 6: Correct conditional logic. No error handling for non-numeric input.
+- Exercise 7:  Good use of the modulo operator and conditional statements.
+- Exercise 8:  The capitalization check is thoughtful. Consider using `.lower()` for case-insensitive comparison.
+- Exercise 9: The code has a logic error; it should be an `elif` condition, not two separate `if` conditions. It also lacks error handling for non-numeric input.
+Brief justification:
+- correctness: Most exercises are correctly implemented, except for Exercise 2 (incorrect exponentiation), Exercise 3 (missing print statements), and Exercise 9 (logical error in the conditional statements). The code generally addresses the core concepts of the chapter but contains minor flaws.
+- readability: The code is generally readable but could be improved with better formatting, comments, and more consistent use of string formatting techniques. Some exercises are improved with f-strings, but others use basic concatenation, decreasing readability.
+- performance: The code's performance is acceptable for these simple exercises.  No significant performance issues are present.
+- security: There are no apparent security vulnerabilities in the provided code. The code does not interact with external systems or handle sensitive data.
+

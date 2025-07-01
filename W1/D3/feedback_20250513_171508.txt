@@ -1,0 +1,12 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D3/exercise.py
+suggestions for improvement:
+- In Exercise 1, while the code correctly converts lists to a dictionary, adding a brief comment explaining the `zip` function's role would enhance readability.
+- In Exercise 2, the bonus section could benefit from input validation (e.g., ensuring the user enters a numerical age) to prevent errors.
+- Exercise 3's solution is excellent, demonstrating a good understanding of dictionary manipulation.  Consider adding comments explaining the purpose of each section for improved readability.
+- Exercise 4's code is efficient and concise.  However, consistent naming conventions (e.g., using underscores instead of camel case for variable names) would improve readability.
+Brief justification:
+- correctness: All exercises demonstrate a strong understanding of the core Python concepts (dictionaries, loops, conditionals) described in the chapter content. The code accurately converts lists to dictionaries, calculates ticket costs based on age, manipulates Zara's brand data as specified, and creates dictionaries from the character list as required.  The only minor deviation is the lack of input validation in Exercise 2's bonus, which could lead to runtime errors if the user provides unexpected input.  The score reflects the high accuracy and completeness of the solutions, with a minor deduction for the input validation omission.
+- readability: The code is generally well-structured and easy to follow. However, some parts could benefit from more descriptive variable names and comments to further improve clarity.  The use of f-strings for output is positive.  The bonus in Exercise 2 could benefit from error handling. The score is high but reflects potential for improvement in clarity.
+- performance: The code is efficient and performs the required tasks effectively. There are no obvious performance bottlenecks or unnecessary computations.
+- security: The code doesn't contain any obvious security vulnerabilities.  The user input in the bonus section of Exercise 2 is the only point of potential risk, which is mitigated by suggestion of input validation.
+

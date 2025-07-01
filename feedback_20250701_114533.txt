@@ -1,0 +1,16 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6_D2_exercise_part1.sql
+suggestions for improvement:
+- The queries for Exercise 1 are mostly correct but lack proper SQL syntax.  Specifically, `Order BY` should be `ORDER BY`, and there's no table named 'items' mentioned in the chapter. Assuming 'items' refers to a table with 'price' column and 'customers' has 'first_name' and 'last_name' columns, the queries need minor corrections.
+- Add semicolons at the end of each SQL statement for better readability and adherence to standard SQL syntax.
+- For Exercise 1, query 3 should explicitly specify the columns to select to exclude the primary key, rather than just saying 'exclude the primary key column'.
+Correctness: 80%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6_D2_exercise_part2.sql
+suggestions for improvement:
+- The comments should be improved to be more descriptive and provide context to the query's purpose.  For example, instead of `--1`, use `-- Query 1: Select all columns from the customer table`.
+- In query 10 and 11, using `LIMIT` is acceptable, but the instructions suggest trying to avoid it in query 11.  Consider using `OFFSET` and `FETCH` for a more robust solution in query 11.
+- Add error handling and input validation where appropriate. For instance, in Exercise 2, handle potential exceptions during the database connection and query execution.
+- Query 8 and 9 are subjective and depend on the user's favorite movie.  These should be clearly noted as examples, showing how to construct such queries.
+- The code lacks the SQL statements for Exercise 1.  These need to be added for a complete solution.
+Correctness: 95%
+-----

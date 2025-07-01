@@ -1,0 +1,11 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6_D1.sql
+suggestions for improvement:
+- The code should be organized into a single `.sql` file for easier Github submission as instructed.  The comments showing table creation should be included.
+- Add more descriptive names to columns (e.g., `first_name`, `last_name`).
+- Consider adding data validation (constraints) to ensure data integrity (e.g., price should be positive, names should not be excessively long).
+Brief justification:
+- correctness: The SQL code correctly creates the tables, inserts the specified data, and executes the queries as requested in Exercise 1.  The results accurately reflect the instructions; however, it is not in a single file which is stated in instructions.
+- readability: The code is generally readable, but it could be improved by using more descriptive column names and better formatting (e.g., consistent indentation and spacing). The inclusion of the `CREATE TABLE` statements within comments makes it less readable and harder to run as one complete script. 
+- performance: The SQL queries are efficient and will perform well for this small dataset. No performance issues are apparent.
+- security: No security vulnerabilities are present in this code snippet.  It only involves basic SQL operations on a local database.
+

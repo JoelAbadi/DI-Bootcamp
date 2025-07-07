@@ -1,0 +1,13 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W7_D1_Exercise.sql
+suggestions for improvement:
+- The code for Exercise 1 is missing the creation of the `emp_dataset` table, which is referenced in the hint.  The code should explicitly show the creation of this table by combining the four CSV files (companies, employees, functions, salaries) using appropriate JOIN operations.
+- Exercise 2, part 3, should handle NULL values more robustly. Instead of deleting rows with missing salaries, consider imputing them using a suitable strategy (e.g., mean, median, or a more sophisticated approach based on other data).  Simply deleting rows might lead to significant data loss and bias results.
+- Exercise 2 should explicitly check for empty strings in all relevant columns and handle them properly (currently it only addresses salary).
+- The performance of the queries in exercises 3, 4, and 5 could be improved by using common table expressions (CTEs) more strategically to reduce redundancy and potentially improve query optimization.
+- Add comments to explain the purpose of each query in Exercises 3, 4, and 5.
+Brief justification:
+- correctness: The code mostly addresses the exercises as described.  However, it's missing the initial step of creating the combined `df_employee` table in Exercise 1.  The handling of missing values in Exercise 2 could be improved. The remaining exercises' SQL queries correctly perform the calculations as specified.
+- readability: The code is well-formatted and uses clear variable names. The SQL is easy to follow and understand.
+- performance: The performance could be improved by using more efficient query structures and potentially by creating indexes on key columns.  The repeated use of subqueries can be inefficient. CTEs would improve this.
+- security: There are no apparent security vulnerabilities in the provided code as it only involves data manipulation within a local SQLite database.
+

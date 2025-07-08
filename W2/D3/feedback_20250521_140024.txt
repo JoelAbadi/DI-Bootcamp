@@ -1,0 +1,27 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/Daily_challenge.py
+suggestions for improvement:
+- The code implements a `Circle` class with dunder methods for addition, comparison, string representation, and other functionalities. However, it does not address the requirements of Exercises 2, 3, 4, 5, 6, and 7 from the provided instructions.
+- The `Circle` class is well-structured and readable, using appropriate methods for different functionalities. It handles exceptions correctly.
+- The bonus turtle graphics section is well-integrated and visually demonstrates the circle objects.
+- Consider adding more robust error handling and input validation to the `__init__` method, for example, by checking for negative values of radius or diameter.
+Correctness: 80%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/Exercise.py
+suggestions for improvement:
+- In `Currency.__add__` and `Currency.__iadd__`, the type checking could be made slightly more robust. Currently, it checks if the other operand is an instance of `Currency` or `int`.  Consider adding checks for other numeric types like `float` if they are expected, or explicitly list the allowed types instead of using a tuple.
+- Add docstrings to all functions and methods to improve readability and explain their purpose.
+- The `generate_random_string()` function in Exercise 3 could be made slightly more efficient by using `random.sample` instead of `random.choices` and a loop. `random.sample` directly returns a list of unique elements without looping.
+Correctness: 95%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/decorator_dunder.py
+suggestions for improvement:
+- The provided code does not address any of the exercises in the Chapter Content/Questions. It implements a `Person` class with functionalities unrelated to the exercises.
+- The code should be refactored to address the specified exercises: Currency class with dunder methods, module creation and import, string module usage, datetime module usage (current date, time until January 1st, birthday calculation), and faker module usage.
+- Add error handling (e.g., `try-except` blocks) where appropriate, especially when parsing dates or handling user input to prevent crashes from unexpected data.
+Correctness: 0%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

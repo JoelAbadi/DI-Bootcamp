@@ -1,0 +1,13 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6-D3-daily_challange_part1.sql
+suggestions for improvement:
+- The query for 'Number of customers that are not logged in' uses an INNER JOIN, which excludes customers without profiles.  It should use a LEFT JOIN to include all customers and count those with isLoggedIn = FALSE.
+- Add error handling (e.g., using TRY...CATCH blocks) to handle potential exceptions during data insertion, especially when relying on subqueries to retrieve IDs.
+- The comments should be more descriptive. For example, instead of `--First names of logged-in customers`, you might use `--Query 1: Retrieve first names of customers who are logged in`.
+Correctness: 85%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6-D3-daily_challange_part2.sql
+suggestions for improvement:
+- The `Library` table's primary key should be just `(book_fk_id, student_fk_id)`. Including `borrowed_date` might be redundant and could prevent a student from borrowing the same book twice on different dates.  Consider adding a unique constraint instead if multiple borrowings are allowed. 
+- Add indexes to foreign key columns in the `Library` table (`book_fk_id`, `student_fk_id`) to improve the performance of joins.
+Correctness: 90%
+-----

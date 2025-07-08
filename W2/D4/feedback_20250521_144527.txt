@@ -1,0 +1,54 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D4/API.py
+suggestions for improvement:
+- The code does not address either Exercise 1 or Exercise 2. It fetches a joke from an API and saves it to a JSON file.  It needs to be completely rewritten to match the assignment.
+- Add comprehensive error handling (e.g., `try-except` blocks) to handle potential issues like file not found or invalid JSON data in Exercise 1.
+- In Exercise 1, implement input validation to ensure the user provides a valid integer within the specified range (2-20).
+- Exercise 1 needs to utilize the provided word list file, not an external API.
+- The date format for the birthdate (Exercise 2) should be validated before using it.
+Correctness: 0%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D4/Exercise.py
+suggestions for improvement:
+- Add more robust error handling for file I/O operations in `get_words_from_file`. Consider handling other exceptions besides `FileNotFoundError`, such as `PermissionError`.
+- Improve the user experience by providing clearer error messages and instructions. For example, when the file is not found, suggest possible reasons or solutions.
+- In `get_random_sentence`, add a check to ensure the word list is not empty before proceeding.  Currently, it only checks if the list is shorter than the requested sentence length.
+- The performance could be slightly improved in `get_random_sentence` by loading the word list only once, perhaps in the `main` function and passing it as an argument to `get_random_sentence`.
+- Consider adding a mechanism to handle cases where the word list contains empty lines or unexpected characters.
+Correctness: 95%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D4/JSON_explenation.py
+suggestions for improvement:
+- The code doesn't address Exercise 1 (Random Sentence Generator).  It only implements JSON handling, which is Exercise 2.
+- Exercise 2 is partially implemented.  It doesn't handle user input or include error handling for file operations.
+- The code should explicitly handle potential `FileNotFoundError` exceptions when reading files.
+- The `sampleJson` from Exercise 2 is not used; a different JSON structure is created and used instead.
+- In Exercise 2,  add the birth_date key should be done with a valid date format (YYYY-MM-DD).  Currently there is no date added.
+- The code lacks comments explaining the purpose of each section, especially the file I/O parts.
+- The `main` function for the JSON exercise (Exercise 2) is missing, making it not fully aligned with the instructions provided.
+Correctness: 70%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D4/Star_wars.py
+suggestions for improvement:
+- The code does not implement the random sentence generator (Exercise 1) at all.
+- The code partially addresses Exercise 2 (JSON manipulation) but lacks key features.
+- The code directly manipulates a file ('starwars.txt') without user input for file name.
+- Error handling is missing.  The code will fail if 'starwars.txt' doesn't exist or if there's an issue with file I/O.
+- The code modifies the 'starwars.txt' file in place without creating a backup. This could lead to data loss.
+- The code's structure is not well organized; it should be split into clear functions as outlined in the instructions.
+- The JSON parsing and modification part is incomplete. It does not demonstrate the core functionalities described in Exercise 2 (accessing nested key, adding a new key, saving modified JSON).
+Correctness: 20%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D4/daily challenge.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D4/file_io.py
+suggestions for improvement:
+- The code lacks implementation for Exercises 1 and 2 as described in the chapter content.  It only demonstrates basic file I/O operations.
+- The file path is hardcoded.  The solution should handle user input for the file path.
+- Error handling (e.g., `try-except` blocks) is missing for file operations. The program may crash if the file is not found.
+- Exercise 1 requires functions `get_words_from_file`, `get_random_sentence`, and `main`. These are not implemented.
+- Exercise 2 requires JSON parsing and manipulation; this is absent.
+Correctness: 70%
+-----

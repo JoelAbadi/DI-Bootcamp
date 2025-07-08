@@ -1,0 +1,19 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6-D3-exercise_part1.sql
+suggestions for improvement:
+- Use consistent capitalization for SQL keywords (e.g., `SELECT`, `FROM`, `JOIN`, `WHERE`, `ON`).
+- Add comments to explain the purpose of each query or section of code, especially for complex queries.
+- For better readability, format the SQL queries to improve indentation and spacing.
+- In exercise 1, question 4, explicitly define the data type for the 'name' column in the `new_film` table.  For example, `name VARCHAR(255)`.
+- In exercise 1, question 5, consider adding constraints to the `customer_review` table to ensure data integrity, such as `NOT NULL` constraints for relevant columns.
+- In exercise 1, question 6, provide more specific examples for the `INSERT` statements, which would aid in verification.
+Correctness: 90%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6-D3-exercise_part2.sql
+suggestions for improvement:
+- The SQL code for Exercise 2, part 6, needs improvement. The queries for finding the movies are not fully accurate or complete based on the provided friend's requests.  Each sub-query should be refined to precisely match the description.  For example,  the third query's condition `AND amount > 4.00`  doesn't precisely match the friend's request which includes a range of dates.
+- Add comments to explain the purpose of each SQL query.  While the comments in some parts are sufficient, consistently commenting on every query enhances readability.
+- Consider using more efficient joins or subqueries where possible to improve performance, especially in Exercise 2, part 5. This can be especially important for very large datasets.
+- For Exercise 2, part 6, you should combine the four individual queries into a single, more efficient query.  This will reduce database interactions and lead to improved performance.  Consider using UNION ALL or similar techniques to combine the results of each subquery.
+- The code lacks error handling. Production-ready code should include checks to handle potential exceptions, such as invalid input or database connection errors.
+Correctness: 80%
+-----

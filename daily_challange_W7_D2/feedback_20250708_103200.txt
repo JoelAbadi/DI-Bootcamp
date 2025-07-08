@@ -1,0 +1,8 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/daily_challange_W7_D2/my_notebook.ipynb
+suggestions for improvement:
+- The code can be improved by adding more comments to explain complex SQL queries.
+- Error handling can be enhanced to gracefully handle potential exceptions during database connection or query execution.
+- Consider using parameterized queries to prevent SQL injection vulnerabilities, although the current example doesn't seem vulnerable because it uses hardcoded values.
+- For better performance, especially with larger datasets, explore database optimization techniques such as indexing relevant columns.
+Correctness: 100%
+-----

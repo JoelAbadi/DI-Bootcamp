@@ -1,0 +1,13 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D2/daily_chhallenges.py
+suggestions for improvement:
+- Challenge 1: The code doesn't explicitly handle the case where the user inputs 0 for the number. It should ideally either print an appropriate message or handle this edge case gracefully (e.g., produce an empty list).
+- Challenge 1: Add more comprehensive error handling.  Currently, it only checks for non-integer input. It should also check for negative input for both the number and length.
+- Challenge 2: The code correctly removes consecutive duplicates.  Consider adding a more descriptive message if the input string is empty.
+- Both Challenges:  Use more descriptive variable names (e.g., `number` instead of `number_to_multiply`, `length` instead of `desired_length`, `input_word` instead of `input_string`).
+- Both Challenges: Add docstrings to functions if the code was organized into functions.  Even without functions, a more comprehensive comment block at the beginning of each challenge explaining the approach would improve readability.
+Brief justification:
+- correctness: Challenge 1: The code mostly fulfills the requirements. It correctly takes user input, generates multiples, and prints the list. However, it lacks handling for zero input and more robust error handling.  Challenge 2: The code perfectly meets the requirements, correctly removing consecutive duplicate letters and handling an empty string input appropriately.
+- readability: The code is generally well-structured and easy to follow. However, more descriptive variable names and comments would significantly enhance readability.  The use of a single loop in Challenge 2 is efficient and clear. The code is well formatted, but more informative comments would elevate readability.
+- performance: The algorithms used in both challenges are efficient.  Both Challenges 1 and 2 have O(n) time complexity, where n is the length of the input list (Challenge 1) or string (Challenge 2). There's no unnecessary overhead, and the code processes the inputs effectively without significant performance issues. The use of built-in functions (e.g., `append`) contributes to good performance.
+- security: The code doesn't introduce any obvious security vulnerabilities. The only user input is handled properly to avoid exceptions. The program doesn't interact with external systems or files, which reduces the potential attack surface area.
+

@@ -1,0 +1,11 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W6_D2_daily_challenge.sql
+suggestions for improvement:
+- The explanations are good, but could be made more concise. For example, instead of explaining step by step why each query returns the result, you could directly state the final result and then briefly justify it.
+- The performance could be improved by using EXISTS instead of NOT IN with subqueries, especially when dealing with NULL values. NOT IN with NULL values can lead to unexpected results. EXISTS is generally more efficient and clearer in these cases.
+- Consider adding SQL comments within the code to explain the purpose of each section and make it even more readable.
+Brief justification:
+- correctness: The provided answers accurately predict the output of each SQL query based on the data in FirstTab and SecondTab.  The explanations correctly describe how NULL values affect the NOT IN operator and the resulting count. This directly addresses the chapter content which focuses on SQL basics and table relationships, specifically using subqueries and understanding the behavior of NULLs.
+- readability: The explanations are well-structured and easy to follow.  However, they could be more concise. The separation of explanation and code makes it slightly less readable. Inline comments in the SQL code itself would further enhance readability.
+- performance: While the provided SQL is functional, using `NOT IN` with subqueries involving `NULL` can impact performance.  The alternative `EXISTS` clause would generally be more efficient and less prone to unpredictable behavior with NULLs.  This is a standard SQL optimization technique.
+- security: The provided SQL code doesn't present any security vulnerabilities. The queries are simple and focused on data retrieval; there's no injection or manipulation of data.
+

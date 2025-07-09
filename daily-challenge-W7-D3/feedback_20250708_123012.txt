@@ -1,0 +1,5 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/daily-challenge-W7-D3/my_notebook.ipynb
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

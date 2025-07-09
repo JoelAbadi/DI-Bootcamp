@@ -1,0 +1,12 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/Daily_challenge_W7_D4.ipynb
+suggestions for improvement:
+- The code could be improved by adding error handling (e.g., checking if the file was saved successfully).
+- Consider using more descriptive variable names (e.g., instead of `wb` and `ws`, use `workbook` and `worksheet`).
+- The average formula could be made more robust by handling potential errors (e.g., division by zero if all grades are missing for a subject).
+- The code could be made more modular by separating the data handling, worksheet creation, formatting, and formula application into separate functions.
+Brief justification:
+- correctness: The code accurately creates an Excel workbook, populates it with the provided data, adds formulas to calculate subject averages, and applies formatting to the header row.  It directly addresses all points in "Your Task". The only minor deviation is the lack of explicit error handling, which is a best practice but not explicitly required in the task. This accounts for the 5% deduction.
+- readability: The code is generally well-structured and easy to follow.  However, some variable names could be more descriptive for improved readability.  Adding comments to explain complex logic or non-obvious steps would further enhance readability.
+- performance: The code's performance is efficient for the task.  It directly processes the data and applies formatting without unnecessary overhead.
+- security: The code does not introduce any security vulnerabilities.  It only interacts with local files and does not handle external inputs that could pose security risks.
+

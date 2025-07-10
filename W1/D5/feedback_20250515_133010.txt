@@ -1,0 +1,12 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D5/Mini_project.py
+suggestions for improvement:
+- Improve error handling for invalid input in `player_input`.  Currently it only checks if the input is a number and within range. It should also handle non-numeric input more gracefully.
+- Add a more descriptive prompt to the user indicating the row and column numbers start at 0.
+- The `check_win` function is good, but could be slightly improved by using a helper function to check rows, columns, and diagonals separately for better readability and maintainability.
+- Consider adding a function to clearly separate the game initialization (board creation, player assignment) from the game loop.
+Brief justification:
+- correctness: The code correctly implements the core Tic-Tac-Toe game logic: board creation, player input, win/tie checking, and switching players. It largely follows the steps outlined in the Chapter Content/Questions. However, there's a minor omission in input validation, where more robust error handling for non-numeric inputs is needed.  The win condition checking is complete and accurate.
+- readability: The code is well-structured and uses descriptive function names. The board display is clear. However, the input prompt could be slightly improved for clarity and the `check_win` function, while functional, could be more readable with helper functions to separate the row, column, and diagonal checks.
+- performance: The code's performance is excellent for this simple game. The algorithms used for checking wins and ties are efficient, with a time complexity suitable for a 3x3 board.  No significant performance issues are present.
+- security: The code doesn't have any security vulnerabilities since it's a simple command-line game with no external data handling or user authentication. The input validation, while needing a small enhancement, prevents common errors. There's no risk of code injection or other similar vulnerabilities.
+

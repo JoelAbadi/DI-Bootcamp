@@ -1,0 +1,12 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/XP_W7_D2/my_notebook.ipynb
+suggestions for improvement:
+- The initial code to load data from CSV files needs to handle potential `FileNotFoundError` exceptions.  The provided code attempts to address this by unzipping files, but error handling is still lacking in the `pd.read_csv` section. A `try-except` block is crucial here.
+- The code uses a hardcoded path `/kaggle/input/brazilian-ecommerce/...` which is specific to Kaggle.  For better portability, it should accept the data directory as an argument or use environment variables.
+- The `haversine` function calculates distance between only one customer and seller, not a general solution as described in Query 9. It should be modified to accept two zip codes as input and return the distance.
+- Query 2 (Year-on-Year Trend): While the query works, it only counts total orders.  The task suggests analyzing *customer* purchase trends. The query should count unique customers per year.
+- Query 3 (Average Order Value): The query is complex and could be simplified for better readability. Consider using subqueries more effectively.
+- The queries could benefit from using parameterized queries for better security (although this is not directly relevant based on the provided code, best practice still applies).
+- Add comments to the SQL queries to make them more understandable. 
+- Consider using more descriptive variable names. For example, instead of `df_query1`, use `df_jan_2018_five_star_orders`.
+Correctness: 90%
+-----

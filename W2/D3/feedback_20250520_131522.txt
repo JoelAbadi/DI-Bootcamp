@@ -1,0 +1,31 @@
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/Daily_challenge.py
+suggestions for improvement:
+- The code implements a `Circle` class with dunder methods for addition, comparison, string representation, and representation, but it doesn't address the Currency class or the module import exercises.
+- The exercise requirements specify implementing `__str__`, `__repr__`, `__int__`, `__add__`, and `__iadd__` for a `Currency` class, which is missing.  The provided code focuses on a `Circle` class instead.
+- The `func.py` and `exercise_one.py` files for Exercise 2 are not included, along with Exercise 3 (string module), Exercise 4 (current date), Exercise 5 (time until January 1st), Exercise 6 (birthday and minutes), and Exercise 7 (Faker module).
+- The `Circle` class is well-structured and uses properties effectively, demonstrating good object-oriented programming practices.
+Correctness: 80%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/Exercise.py
+suggestions for improvement:
+- In the Currency class's `__add__` and `__iadd__` methods,  a more concise way to handle type checking and raising the TypeError would be to use a single `if not isinstance(other, (Currency, int)):` check. This improves readability.
+- In `exercise_one.py`, explicitly handle the `ImportError` that could occur if `func.py` isn't found. Add a `try-except` block to catch and handle this potential error.
+- The random string generation in Exercise 3 could be simplified. Instead of a loop, you could use `''.join(random.choices(all_letters, k=5))` for a more efficient and Pythonic approach.
+Correctness: 95%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/decorator_dunder.py
+suggestions for improvement:
+- The provided code does not address any of the exercises in the Chapter Content/Questions. It defines a `Person` class with methods related to birthdate and age calculation, which is unrelated to the exercises on dunder methods, modules, or the `faker` library.
+- The code lacks the implementation of the `Currency` class and its dunder methods as required in Exercise 1.
+- There's no implementation of Exercise 2 (creating and importing modules).
+- Exercise 3 (using the `string` module) is missing.
+- Exercises 4 and 5 (using the `datetime` module to display the current date and time until January 1st) are not implemented.
+- Exercise 6 (calculating minutes lived based on birthdate) is not addressed.
+- Exercise 7 (using the `faker` module) is absent from the code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W2/D3/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

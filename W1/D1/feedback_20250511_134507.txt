@@ -1,0 +1,13 @@
+URL: https://github.com/JoelAbadi/DI-Bootcamp/blob/main/W1/D1/daily_challenge.py
+suggestions for improvement:
+- The code doesn't correctly handle user input string length validation.  It asks for the *number* of strings, not a string of length 10.
+- The code uses a hardcoded string 'perfect' instead of using the validated user input.
+- The bonus task (shuffling the string) is missing.
+- The variable names could be more descriptive (e.g., `user_input_string` instead of `user_input`).
+- Add error handling for non-string inputs.
+Brief justification:
+- correctness: The code partially fulfills the requirements. It correctly prints the first and last characters of a hardcoded string and iteratively builds the string. However, it fails to correctly handle user input validation as it asks for the number of strings rather than a string of length 10 and doesn't use the validated input for subsequent operations.  The bonus task is entirely missing.
+- readability: The code is relatively easy to follow, but variable names could be more descriptive.  Adding comments to clarify the purpose of each section would improve readability.
+- performance: The performance is good for the small scale of the operations involved. The loops and string manipulations are efficient.
+- security: There are no security vulnerabilities in this code because it doesn't interact with external systems or handle sensitive data.
+
